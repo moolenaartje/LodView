@@ -7,10 +7,10 @@
 		<ul>
 			<c:choose>
 				<c:when test='${conf.getEndPointUrl().equals("<>")}'>
-					<li><sp:message code='footer.noSparql' text='data from: deferencing IRI' /></li>
+					<li><sp:message code='footer.noSparql' text='SPARQL endpoint: deferencing IRI' /></li>
 				</c:when>
 				<c:otherwise>
-					<li><sp:message code='footer.yesSparql' text='data from:' /> <a href="${conf.getEndPointUrl()}">${conf.getEndPointUrl()}</a></li>
+					<li><sp:message code='footer.yesSparql' text='SPARQL endpoint:' /> <a href="${conf.getEndPointUrl()}">${conf.getEndPointUrl()}</a></li>
 				</c:otherwise>
 			</c:choose>
 			<li><a target="_blank" href="${lodliveUrl}"><sp:message code='footer.viewLodlive' text='view on lodlive' /></a></li>
