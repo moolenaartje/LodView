@@ -1,19 +1,19 @@
 /* ***************** */
 /*  CUSTOM CSS HERE  */
-/* ***************** */
+***************** */
 div#logoBanner div#logo {
 	background-size: 134px 40px;
-	background-image: url(../img/logo-header-lodview.png);
+	background-image: url(../img/Online_donkergoud_Nederlands_KB-logo.png);
 	height: 80px;
 	background-position: left center;
 	background-repeat: no-repeat;
 	cursor: pointer;
-	width: 150px;
+/* 	width: 150px;  */
 }
 
 @media ( -webkit-min-device-pixel-ratio : 2) , ( min-resolution : 192dpi) {
 	div#logoBanner div#logo {
-		background-image: url(../img/logo-header-lodview@2x.png);
+		background-image: url(../img/Online_donkergoud_Nederlands_KB-logo.png);
 	}
 }
 

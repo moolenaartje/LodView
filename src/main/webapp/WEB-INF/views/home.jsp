@@ -7,7 +7,7 @@
 	<article>
 		<div id="logoBanner">
 			<div id="logo">
-			    <img src="src/main/webapp/resources/img/Online_donkergoud_Nederlands_KB-logo.png" alt="Logo">
+			    <!-- placeholder -->
 			</div>
 		</div>
 		<header>
