@@ -7,13 +7,13 @@
 	<article>
 		<div id="logoBanner">
 			<div id="logo">
-				<!-- placeholder for logo -->
+			    <img src="src/main/webapp/resources/img/Online_donkergoud_Nederlands_KB-logo.png" alt="Logo">
 			</div>
 		</div>
 		<header>
 			<hgroup>
 				<h1>
-					<span>This is your own homepage</span>
+					<span>KB Linked Data</span>
 				</h1>
 				<h2></h2>
 			</hgroup>
