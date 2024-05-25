@@ -78,6 +78,7 @@
 	
 	conf:httpRedirectSuffix ".html"; ## or eg. ".html";
 	##conf:httpRedirectPrefix "/page/"; ## or eg. "";
+	conf:httpRedirectPrefix "";
 
 	##conf:httpRedirectExcludeList ""; 	## a comma separeted list of regex to match which resources will use "pure content negotiation mode"
 										## usually you have to leave this blank but if conf:redirectionStrategy is setted to "pubby" this could be
