@@ -110,7 +110,7 @@
 		{<${IRI}> ?p1 ?s1 .  FILTER(isBlank(?s1)) . ?s1 ?p2 ?s . FILTER(isBlank(?s)) . ?s ?p ?o}
 		UNION 
 		{<${IRI}> ?p1 ?s1 .  FILTER(isBlank(?s1)) . ?s1 ?p2 ?s2 . FILTER(isBlank(?s2)) . ?s2 ?p3 ?s . FILTER(isBlank(?s)) . ?s ?p ?o}		
-		} LIMIT 10000""" ;
+		} LIMIT 100""" ;
 
 
 ## 	default query used to get resource to be included in serializations different 
